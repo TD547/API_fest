@@ -1,0 +1,23 @@
+PUT http://localhost:3000/artiste/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZEFkbWluIjo0LCJsb2dpbiI6ImFkbWluIiwiaWF0IjoxNjM4NzI1MjgyfQ.eWscwouzDZj5vH_o2MpNEHKQiUOqOePrF4BAtFIuyoE
+
+{
+  "idAdmin": 4,
+  "nom": "test4",
+  "photo": "test",
+  "heure_passage": "00:00",
+  "date_passage": "01.01.2022",
+  "style": "test"
+}
+
+###
+POST http://localhost:3000/festival/1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZEFkbWluIjo0LCJsb2dpbiI6ImFkbWluIiwiaWF0IjoxNjM4NzI1NzY4fQ.DA-f6uyVc8Rhq7MrZC2aK9jYYB3NBjzw_K1GyTcdSXA
+
+{
+  "idAdmin": "4",
+  "date_deb": "2023-12-04 10:00:00",
+  "date_fin": "2022-12-06T04:00:00Z"
+}
